@@ -1,0 +1,26 @@
+/* Custom CSS */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* A light gray from Bootstrap's palette */
+}
+
+/* Custom styling for the profile photo */
+.profile-photo-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border: 5px solid #fff; /* A white border around the photo */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* A nice drop shadow */
+    border-radius: 50%; /* Ensures the container is a circle */
+    overflow: hidden; /* Hides any part of the image that overflows */
+}
+
+.profile-photo-container img {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    object-fit: cover; /* This is crucial for making sure the image fills the circle without stretching */
+}
+
+.navbar-brand h1 {
+    font-size: 1.5rem; /* Adjusts the font size for your name in the navbar */
+}
